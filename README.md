@@ -23,7 +23,27 @@ The goal of this project is to create a robust NLP model capable of classifying 
 
 ## Model Architectures
 1. BERT Base (L-12, H-768, A-12)
-    - Pretrained weights: small_bert/bert_en_uncased_L-12_H-768_A-12
+    - Pretrained weights: bert-en-uncased-l-12-h-768-a-12
+
+## Requirements
+1. [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HealLink/ML-Model.git
+   cd ML-Model
+   ```
+2. Create and activate a Conda environment
+    ```
+    conda create -n model-env python=3.11.10 -y
+    conda activate model-env
+    ```
+3. Install dependencies
+    ```
+    pip install -r final_requirements.txt
+    ```
+4. Run notebook_final.ipynb inside the notebooks subdirectory
 
 ## Results
 - The current best model achieved:
@@ -41,6 +61,6 @@ The goal of this project is to create a robust NLP model capable of classifying 
 - Thanks to Allah Subhanahu Wa Ta'ala for all his grace and favor, so that this project can be completed properly.
 - Thanks to TensorFlower for creating TensorFlow Framework.
 - Thanks to Google for creating BERT as base model.
-- Thanks to Andrew Ng and Laurence in Coursera for teaching ML.
+- Thanks to Mr. Andrew Ng and Mr. Laurence in Coursera for teaching ML.
 - Thanks to Bangkit Teams for this learning opportunity.
 - Thanks to Suchintika Sarkar for compiling and cleaning the dataset.
