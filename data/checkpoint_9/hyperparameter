@@ -1,0 +1,19 @@
+CLASS_NUM = 7
+
+SEQ_LENGTH = 256
+TRAINING_RATIO = 0.8
+BATCH_SIZE = 4
+SEED = 45
+
+MODEL_DROPOUT_RATE = 0.2
+MODEL_L2_REGULARIZER = 0.02
+
+EPOCHS = 5
+INIT_LR = 2e-5
+WARM_UP_RATIO = 0.1
+
+bert_model_name = 'bert-en-uncased-l-12-h-768-a-12'
+tfhub_handle_encoder = "https://www.kaggle.com/models/tensorflow/bert/TensorFlow2/bert-en-uncased-l-12-h-768-a-12/2"
+tfhub_handle_preprocess = "https://kaggle.com/models/tensorflow/bert/TensorFlow2/en-uncased-preprocess/3"
+
+data = "cleaned_data_10-192_imbalanced_links_number_removed_no_sliding.csv"
