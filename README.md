@@ -47,12 +47,12 @@ The goal of this project is to create a robust NLP model capable of classifying 
 
 ## Results
 - The current best model achieved:
-    - Epoch: 3
-    - Train loss: 0.053625717759132385
-    - Val loss: 0.07334809750318527
-    - Train MCC: 0.8384552001953125
-    - Val MCC: 0.7475522756576538
-    - Train Accuracy: 0.8738927841186523
+    - Epoch: 2
+    - Train loss: 0.12276183813810349
+    - Val loss: 0.082574762403965
+    - Train MCC: 0.7533358335494995
+    - Val MCC: 0.7541943192481995
+    - Train Accuracy: 0.8077240586280823
     - Val Accuracy: 0.8009008765220642
 - Confusion Matrix (Test set):
     ![confusion matrix](image.png)
